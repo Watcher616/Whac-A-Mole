@@ -2,6 +2,7 @@
  
  Try to hit the mole
  
+ preferable in desktop computers
  
 ---game link---
 
