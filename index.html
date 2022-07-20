@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack-A-Mole</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1>
+      <span id="whack">Whack</span>-<span id="a">a</span>-<span id="span"
+        >mole</span
+      >
+    </h1>
+    <h2 class="score">Score: <span id="score"></span></h2>
+    <h2 class="time">Time: <span id="time"></span></h2>
+    <h2 class="target-score">
+      Target Score: <span id="target-score">10</span>
+    </h2>
+
+    <div id="grid">
+      <div class="hole h1"></div>
+      <div class="hole h2"></div>
+      <div class="hole h3"></div>
+      <div class="hole h4"></div>
+      <div class="hole h5"></div>
+      <div class="hole h6"></div>
+      <div class="hole h7"></div>
+      <div class="hole h8"></div>
+      <div class="hole h9"></div>
+    </div>
+    <p id="message"></p>
+    <div>
+      <button id="play">Play</button>
+      <button id="stop">Stop</button>
+    </div>
+    <div class="cursor">
+      <img id="hammer" src="images/hammer.png" />
+    </div>
+    <script src="jscript/index.js"></script>
+  </body>
+</html>
